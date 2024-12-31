@@ -1,25 +1,27 @@
 proxies:
-- name: Ilped WS
+- name: WARNA DATA
   type: trojan
-  server: 104.18.2.2
+  server: 104.17.3.81
   port: 443
-  password: 199d1981-6212-44f1-993c-505b6082a872
+  password: e1e1b04c-1dd5-4122-b712-bfe621f65152
   udp: true
-  sni: id9.natanvpn.xyz
+  sni: id10.faizalsmoet.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers: 
-      host: id9.natanvpn.xyz
-- name: Ilped GRPC
+      host: id10.faizalsmoet.my.id
+- name: PSINet Inc
   type: trojan
-  server: 104.18.2.2
+  server: 104.17.3.81
   port: 443
-  password: 199d1981-6212-44f1-993c-505b6082a872
+  password: vvip-backup12
   udp: true
-  sni: id9.natanvpn.xyz
+  sni: id3tr.faizalsmoet.my.id
   skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-      grpc-service-name: trojan
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers: 
+      host: id3tr.faizalsmoet.my.id

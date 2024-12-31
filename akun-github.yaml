@@ -1,0 +1,25 @@
+proxies:
+- name: Ilped WS
+  type: trojan
+  server: 104.18.2.2
+  port: 443
+  password: 199d1981-6212-44f1-993c-505b6082a872
+  udp: true
+  sni: id9.natanvpn.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers: 
+      host: id9.natanvpn.xyz
+- name: Ilped GRPC
+  type: trojan
+  server: 104.18.2.2
+  port: 443
+  password: 199d1981-6212-44f1-993c-505b6082a872
+  udp: true
+  sni: id9.natanvpn.xyz
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+      grpc-service-name: trojan

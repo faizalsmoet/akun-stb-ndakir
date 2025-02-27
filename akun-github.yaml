@@ -1,17 +1,17 @@
 proxies:
 - name: WARNA DATA WS
   type: trojan
-  server: 104.17.3.81
+  server: 104.18.2.2
   port: 443
-  password: e1e1b04c-1dd5-4122-b712-bfe621f65152
+  password: ca4840e7-64fd-4352-a693-9112d9ec07d4
   udp: true
-  sni: id10.faizalsmoet.my.id
+  sni: id-5.dvst.biz.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers: 
-      host: id10.faizalsmoet.my.id
+      host: id-5.dvst.biz.id
 - name: WARNA DATA GRPC
   type: trojan
   server: 104.17.3.81

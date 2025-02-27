@@ -3,7 +3,7 @@ proxies:
   type: trojan
   server: 104.18.2.2
   port: 443
-  password: ca4840e7-64fd-4352-a693-9112d9ec07d4
+  password: 8c30422a-6d24-434a-b431-88401d86c817
   udp: true
   sni: id-5.dvst.biz.id
   skip-cert-verify: true

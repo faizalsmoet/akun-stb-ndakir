@@ -3,47 +3,23 @@ proxies:
   type: trojan
   server: 104.18.2.2
   port: 443
-  password: 8c30422a-6d24-434a-b431-88401d86c817
+  password: 6abe246f-4778-4bde-bdb4-4807803503c8
   udp: true
-  sni: id-5.dvst.biz.id
+  sni: id10.faizalsmoet.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers: 
-      host: id-5.dvst.biz.id
+      host: id10.faizalsmoet.my.id
 - name: WARNA DATA GRPC
   type: trojan
-  server: 104.17.3.81
+  server: 104.18.2.2
   port: 443
-  password: e1e1b04c-1dd5-4122-b712-bfe621f65152
+  password: 6abe246f-4778-4bde-bdb4-4807803503c8
   udp: true
   sni: id10.faizalsmoet.my.id
   skip-cert-verify: true
   network: grpc
   grpc-opts:
       grpc-service-name: trojan
-- name: NUSANET WS
-  type: trojan
-  server: 104.17.3.81
-  port: 443
-  password: vvip-backup12
-  udp: true
-  sni: id3tr.faizalsmoet.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers: 
-      host: id3tr.faizalsmoet.my.id
-- name: NUSANET GRPC
-  type: trojan
-  server: 104.17.3.81
-  port: 443
-  password: vvip-backup12
-  udp: true
-  sni: id3tr.faizalsmoet.my.id
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-      grpc-service-name: trojangrpc

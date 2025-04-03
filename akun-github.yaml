@@ -23,26 +23,26 @@ proxies:
   network: grpc
   grpc-opts:
       grpc-service-name: trojan
-- name: Biznet WS
+- name: NUSANNET WS
   type: trojan
   server: 104.18.2.2
   port: 443
-  password: vvip-gentong1
+  password: vvip-faizal123
   udp: true
-  sni: mn2tr.jagoanvip.xyz
+  sni: id3tr.faizalsmoet.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers: 
-      host: mn2tr.jagoanvip.xyz
-- name: Biznet GRPC
+      host: id3tr.faizalsmoet.my.id
+- name: NUSANET GRPC
   type: trojan
   server: 104.18.2.2
   port: 443
-  password: vvip-gentong1
+  password: vvip-faizal123
   udp: true
-  sni: mn2tr.jagoanvip.xyz
+  sni: id3tr.faizalsmoet.my.id
   skip-cert-verify: true
   network: grpc
   grpc-opts:

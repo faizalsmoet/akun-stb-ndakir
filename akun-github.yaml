@@ -1,31 +1,31 @@
 proxies:
-- name: WARNA DATA WS
+- name: IDC WS
   type: trojan
-  server: 104.18.2.2
+  server: support.zoom.us
   port: 443
-  password: 6abe246f-4778-4bde-bdb4-4807803503c8
+  password: 87c8ee37-82e0-4f61-a1d9-55f3ad4fb119
   udp: true
-  sni: id10.faizalsmoet.my.id
+  sni: support.zoom.us.idcx3.natanvpn.store
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers: 
-      host: id10.faizalsmoet.my.id
-- name: WARNA DATA GRPC
+      host: support.zoom.us.idcx3.natanvpn.store
+- name: IDC GRPC
   type: trojan
-  server: 104.18.2.2
+  server: support.zoom.us
   port: 443
-  password: 6abe246f-4778-4bde-bdb4-4807803503c8
+  password: 87c8ee37-82e0-4f61-a1d9-55f3ad4fb119
   udp: true
-  sni: id10.faizalsmoet.my.id
+  sni: support.zoom.us.idcx3.natanvpn.store
   skip-cert-verify: true
   network: grpc
   grpc-opts:
       grpc-service-name: trojan
 - name: NUSANNET WS
   type: trojan
-  server: 104.18.2.2
+  server: 104.17.3.81
   port: 443
   password: vvip-faizal123
   udp: true
@@ -38,7 +38,7 @@ proxies:
       host: id3tr.faizalsmoet.my.id
 - name: NUSANET GRPC
   type: trojan
-  server: 104.18.2.2
+  server: 104.17.3.81
   port: 443
   password: vvip-faizal123
   udp: true
